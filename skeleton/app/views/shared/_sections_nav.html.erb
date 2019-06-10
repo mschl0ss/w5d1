@@ -1,0 +1,20 @@
+<!-- baller status erb stuff -->
+<% links = ["world", "san francisco", "new york", "bootcamp prep"] %>
+<% links += %w(jumpstart online marketing sales)%>
+<% links += ["talent match", "alumni"] %>
+
+<section class="sections-nav">
+
+  <ul>
+
+    <% links.each do |link|%>
+      <li>
+        <a href="cssiscool.com"><%=link%></a>
+      </li>
+    <% end %>
+
+    <li><a href="all.com">all</a></li>
+
+  </ul>
+
+</section>

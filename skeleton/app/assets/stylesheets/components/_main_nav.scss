@@ -1,14 +1,27 @@
 .main-nav {
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  // border: solid 1px black;
 }
 
 .left-nav > ul,
 .right-nav > ul {
-
+  display: flex;
+  align-items: center;
+  // border: solid 1px black;
 }
 
 .left-nav > ul > li {
-
+     background-color: white;
+     text-transform: uppercase;
+     font-family: $sans-serif;
+     font-weight: bold;
+     padding: 7.5px;
+     border-radius: 2.5px;
+     transition: background-color .5s;
+     cursor: pointer;
 }
 
 .right-nav > ul > li {
@@ -16,19 +29,34 @@
 }
 
 .right-nav > ul > li:last-of-type {
-
+ 
 }
 
 .left-nav > ul > li:hover,
 .right-nav > ul > li:last-of-type:hover {
-
+  background-color: $light-gray;
 }
 
 .left-nav span {
-
+  margin-left: 5px;
 }
 
 
 .right-nav i {
+  font-size: 15px;
+  padding: 7.5px;
+  // border-radius: 50px;
+  cursor: pointer;
+}
 
+#gear-thing,
+.left-nav li {
+  // border: double 10px orange;
+
+
+}
+
+#gear-thing:hover,
+.left-nav li:hover {
+  
 }
