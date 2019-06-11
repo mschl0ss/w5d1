@@ -1,15 +1,15 @@
 .main-nav {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: baseline; 
   padding: 10px;
-  // border: solid 1px black;
+  border-bottom: solid 1px $light-gray;
 }
 
 .left-nav > ul,
 .right-nav > ul {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   // border: solid 1px black;
 }
 
